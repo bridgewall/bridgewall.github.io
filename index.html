@@ -11,6 +11,17 @@
   gtag('config', 'UA-119042477-1');
 </script>
   <link rel="stylesheet" type="text/css" href="style.css">
+<script>
+function myFunction() {
+var b=document.getElementById('codedisplay').style.display;
+if(b != 'block') {
+       document.getElementById("codedisplay").style.display = "block";
+  }
+  else{
+       document.getElementById("codedisplay").style.display = "none";
+  }
+}
+</script>
   <title>First Page</title>
  </head>
 <body>
@@ -37,10 +48,36 @@ of the division. For example how many times can you fit 5 in 17. That will be
 But this is a point of FizzBuzz, there are many ways you can implement it.
 That is probably one of the reasons it is used to check for basic programming skills.</p>
 
- <img src="images/code1.png" alt="Logo" height="336" width="487"> <br>
-<span>Code snippet is a screenshot from the Dr.Java IDE. You can find the actual code
-in my github repository github/</span>
+<img src="images/code1.png" alt="Logo" height="336" width="487"> <br>
+<span>Code snippet is a screenshot from the Dr.Java IDE.</span>
 
+<div id='code' onclick='myFunction()'>Click for code</div>
+
+<div id='codedisplay'>
+<pre>
+class FizzBuzz{
+  public static void main(String args[]){
+    for(int i=1; i<=100; i++){
+      if((i%3)==0 & (i%15)!=0){
+        System.out.println(i + " Fizz");
+      }
+      if((i%5)==0 & (i%15)!=0){
+        System.out.println(i + " Buzz");
+      }
+      if((i%15)==0){
+        System.out.println(i + " FizzBuzz");
+      }
+    }
+  }
+}
+</pre>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
  </div>
 </body>
 </html>
