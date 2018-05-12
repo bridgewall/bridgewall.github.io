@@ -15,3 +15,21 @@ h2 {
 span {
       font-size: 0.8em;
 }
+#codedisplay{
+    display: none;
+    border: solid 1px #a6d8a8;
+}
+
+#code {
+    text-align: center;
+    background-color: #4CAF50;
+    border: solid 1px #4CAF50;
+    cursor: pointer;
+}
+#code:hover {
+    background-color: lightblue;
+    border: solid 1px #4d79ff;
+}
+pre{
+    padding: 10px;
+}
