@@ -24,7 +24,6 @@ span {
 }
 
 #codedisplay2{
-    width: 100%;
     display: none;
     border: solid 1px #a6d8a8;
     overflow-x: scroll;
