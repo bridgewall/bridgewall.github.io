@@ -39,3 +39,8 @@ span {
 pre{
     padding: 10px;
 }
+
+#inline_image{
+    position: relative;
+    top: 10px;
+}
