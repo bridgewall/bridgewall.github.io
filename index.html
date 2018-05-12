@@ -99,6 +99,12 @@ Hmmm, so 15/15=1, 30/15=2, 45/15=3, 60/15=4, 75/15=5, 90/15=6. Interesting huh. 
 the pattern. Results of division is a sequence itself: 1, 2, 3, 4, 5, 6. That will help us to filter out
 fizzbuzz numbers. The same with fizz (3) and buzz (5) numbers.</p>
 
+<p>The code snippet below doesn't really use the above finding but it was the thought
+process when I was writing the code. What really helped was the use of float primitive
+in the if condition. Use of 15.0 made Java automatically compute the expression
+as float literals, so 14/15 was not truncated to 0, or 16/15 was not truncated to 1, 
+giving us erroneous results.</p>
+
 <div id='code' onclick='myFunction2()'>Click for code</div>
 <div id='codedisplay2'>
 <pre>
