@@ -2,7 +2,7 @@ body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0px;
 }
-div {
+div.wrapper {
       margin: 30px;
       margin-right: 250px;
       line-height: 1.5;
@@ -15,11 +15,16 @@ h2 {
 span {
       font-size: 0.8em;
 }
+
 #codedisplay{
     display: none;
     border: solid 1px #a6d8a8;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
+
 #codedisplay2{
+    width: 100%;
     display: none;
     border: solid 1px #a6d8a8;
     overflow-x: scroll;
