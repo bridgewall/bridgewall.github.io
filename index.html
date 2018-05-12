@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119042477-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-119042477-1');
-</script>
   <link rel="stylesheet" type="text/css" href="style.css">
+
 <script>
 function myFunction() {
 var b=document.getElementById('codedisplay').style.display;
@@ -31,10 +23,11 @@ if(b != 'block') {
   }
 }
 </script>
+
   <title>First Page</title>
  </head>
 <body>
- <div>
+ <div class='wrapper'>
  <h2>Java Tutorials on practical examples</h2>
  <p>This is experimental website for hands-on Java examples. In order
 to follow the exercises you should already know basic syntax. Especially control flow statements, loops,
@@ -57,7 +50,7 @@ of the division. For example how many times can you fit 5 in 17. That will be
 But this is a point of FizzBuzz, there are many ways you can implement it.
 That is probably one of the reasons it is used to check for basic programming skills.</p>
 
-<img src="images/code1.png" alt="Logo" height="336" width="487"> <br>
+<img src="images/code1.png" alt="Logo" height="336" width="487"><br>
 <span>Code snippet is a screenshot from the Dr.Java IDE.</span>
 
 <div id='code' onclick='myFunction()'>Click for code</div>
@@ -81,7 +74,7 @@ class FizzBuzz{
 }
 </pre>
 </div>
- 
+
 <p>But what if programming language doesn't have a modulus operator or some other
 features and facilities that make certain algroithms easier to implement in a few
 lines of code. Then one have to create a workaround. This is how computer programming
@@ -172,6 +165,7 @@ class FizzBuzzWithoutModulus{
 <br>
 <br>
 <br>
+
  </div>
 </body>
 </html>
