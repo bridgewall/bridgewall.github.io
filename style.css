@@ -19,6 +19,12 @@ span {
     display: none;
     border: solid 1px #a6d8a8;
 }
+#codedisplay2{
+    display: none;
+    border: solid 1px #a6d8a8;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
 
 #code {
     text-align: center;
